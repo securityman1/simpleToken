@@ -1,6 +1,6 @@
 pragma solidity ^0.4.2;
 
-contract SimpleToken {
+contract IvannToken {
     /* Public variables of the token */
     string public standard = 'Token 0.1';
     string public name;
@@ -16,7 +16,7 @@ contract SimpleToken {
     event Transfer(address indexed from, address indexed to, uint256 value);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function SimpleToken(
+    function IvannToken(
         uint256 initialSupply,
         string tokenName,
         uint8 decimalUnits,
